@@ -4,6 +4,7 @@ from tools.webhook import dwebhook
 from tools.massdm import massdmer
 from tools.tokeninfo import information
 from tools.serverleaver import leaver
+from tools.unfriend import unfriender
 
 title = "EngineOwner | github.com/itssnee/engine-owner"
 system("title " + title)
@@ -53,4 +54,7 @@ def owner():
     elif lmao == "2":
         token3 = input(Fore.RED + "Token[>] ")
         leaver(token=token3)
+    elif lmao == "3":
+        token4 = input(Fore.RED + "Token[>] ")
+        unfriender(token=token4)
 owner()
