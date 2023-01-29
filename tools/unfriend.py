@@ -2,7 +2,7 @@ import requests
 from colorama import Fore
 from os import system
 
-title = "EngineOwner | Delete Friends"
+title = "EngineOwner ║ Delete Friends"
 system("title " + title)
 
 def unfriender(token):
