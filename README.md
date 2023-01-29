@@ -16,7 +16,7 @@ Leave all servers
 
 Close all dm's
 
-Fuck the person's discord(changing to white mode, japanese/chinese/etc. language changer(automatically), and custom status changer)
+Fuck the person's discord(changing to white mode, japanese/chinese/kongo/etc. language changer(automatically), and custom status changer)
 
 More soon, be patient.
 
