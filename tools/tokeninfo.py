@@ -1,5 +1,6 @@
 import requests
 from os import system
+from colorama import Fore
 
 title = "EngineOwner | TokenInfo"
 
