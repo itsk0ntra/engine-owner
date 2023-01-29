@@ -3,7 +3,7 @@ import random
 from os import system
 from colorama import Fore
 
-title = "EngineOwner | MassDM"
+title = "EngineOwner ║ MassDM"
 heads = [
     {
         "Content-Type": "application/json",
