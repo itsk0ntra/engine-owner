@@ -1,6 +1,7 @@
 import os
 from os import system
 from colorama import Fore
+from tools.webhook import dwebhook
 
 title = "EngineOwner"
 system("title " + title)
@@ -27,4 +28,17 @@ ___________              .__                ________
                      ╚═══════════════════════════════╝   ╚═══════════════════════════════╝
 """
 option = Fore.RED + "    [>] "
-input(banner + option)
+
+def owner():
+    lmao = input(banner + option)
+    if lmao == "17":
+        quit()
+    elif lmao == "14":
+        link = input("Enter the Webhook you want to delete.")
+        dwebhook(link)
+    elif lmao == "15":
+        print("made by Snee")
+        print("https://github.com/itssnee/engine-owner")
+        print("To close this credit scene, press enter.")
+        input("")
+owner()
