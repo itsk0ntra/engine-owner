@@ -7,7 +7,7 @@ from tools.serverleaver import leaver
 from tools.unfriend import unfriender
 from tools.closedm import dmcloser
 
-title = "EngineOwner | github.com/itssnee/engine-owner"
+title = "EngineOwner ║ github.com/itssnee/engine-owner"
 system("title " + title)
 
 banner = Fore.RED + """
