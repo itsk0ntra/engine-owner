@@ -3,7 +3,7 @@ from colorama import Fore
 
 title = "EngineOwner | Server Leaver"
 
-def leaveServer(token):
+def leaver(token):
     system("title " + title)
     headers = {'Authorization': token}
     guildsIds = requests.get("https://discord.com/api/v8/users/@me/guilds", headers=getheaders(token)).json()
