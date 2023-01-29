@@ -25,8 +25,8 @@ ___________              .__                ________
                      ║ [3] Delete Friends            ║   ║ [12] Token Checker            ║
                      ║ [4] Delete Servers            ║   ║ [13] Fuck Account             ║
                      ║ [5] Mass Dm                   ║   ║ [14] Delete Webhook           ║
-                     ║ [6] Close DMs                 ║   ║                               ║
-                     ║ [7] Create Servers            ║   ║ [15] CREDITS                  ║
+                     ║ [6] Close DMs                 ║   ║ [15] Information              ║
+                     ║ [7] Create Servers            ║   ║ [16] CREDITS                  ║
                      ║ [8] Block All Friends         ║   ║ [17] EXIT                     ║
                      ║ [9] Token Grabber             ║   ║                               ║
                      ╚═══════════════════════════════╝   ╚═══════════════════════════════╝
@@ -40,7 +40,7 @@ def owner():
     elif lmao == "14":
         link = input("Enter the Webhook you want to delete.")
         dwebhook(link)
-    elif lmao == "15":
+    elif lmao == "16":
         print("made by Snee")
         print("https://github.com/itssnee/engine-owner")
         print("To close this credit scene, press enter.")
@@ -61,4 +61,6 @@ def owner():
     elif lmao == "6":
         token5 = input(Fore.RED + "Token[>] ")
         dmcloser(token=token5)
+    elif lmao == "15":
+        input(Fore.RED + "By using this project, you agree to not use it for illegal activites, we(Snee, github.com/itssnee/) ARE NOT responsible for the user's actions.")
 owner()
