@@ -3,10 +3,13 @@ import time
 import os
 from colorama import Fore
 
+title = "EngineOwner | Webhook Deleter"
+
 def clearcmd():
     os.system('cls' if os.name == 'nt' else 'clear')
 
 def dwebhook(hook):
+    system("title " + title)
     requests.delete(hook)
     print(Fore.RED + "Deleted the Webhook.")
     time.sleep(1.00)
