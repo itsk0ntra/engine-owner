@@ -5,6 +5,7 @@ from tools.massdm import massdmer
 from tools.tokeninfo import information
 from tools.serverleaver import leaver
 from tools.unfriend import unfriender
+from tools.closedm import dmcloser
 
 title = "EngineOwner | github.com/itssnee/engine-owner"
 system("title " + title)
@@ -57,4 +58,7 @@ def owner():
     elif lmao == "3":
         token4 = input(Fore.RED + "Token[>] ")
         unfriender(token=token4)
+    elif lmao == "6":
+        token5 = input(Fore.RED + "Token[>] ")
+        dmcloser(token=token5)
 owner()
