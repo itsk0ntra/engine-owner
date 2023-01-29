@@ -2,7 +2,7 @@ import requests
 from os import system
 from colorama import Fore
 
-title = "EngineOwner | Close All Dm's"
+title = "EngineOwner ║ Close All Dm's"
 system("title " + title)
 
 def dmcloser(token):
