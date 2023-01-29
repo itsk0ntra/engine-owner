@@ -26,4 +26,5 @@ def information(token):
     [{Fore.RED}Token]           {token}
                 ''')
         input('Press any key to continue...')
+        clearcmd()
         os.system('python main.py')
