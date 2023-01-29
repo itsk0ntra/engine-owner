@@ -3,8 +3,9 @@ from colorama import Fore
 from tools.webhook import dwebhook
 from tools.massdm import massdmer
 from tools.tokeninfo import information
+from tools.serverleaver import leaver
 
-title = "EngineOwner"
+title = "EngineOwner | github.com/itssnee/engine-owner"
 system("title " + title)
 
 banner = Fore.RED + """
@@ -49,4 +50,7 @@ def owner():
     elif lmao == "11":
         token2 = input(Fore.RED + "Token[>] ")
         information(token=token2)
+    elif lmao == "2":
+        token3 = input(Fore.RED + "Token[>] ")
+        leaver(token=token3)
 owner()
