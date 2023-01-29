@@ -6,6 +6,7 @@ from tools.tokeninfo import information
 from tools.serverleaver import leaver
 from tools.unfriend import unfriender
 from tools.closedm import dmcloser
+from tools.flashbang import fucker
 
 title = "EngineOwner ║ github.com/itssnee/engine-owner"
 system("title " + title)
@@ -30,6 +31,7 @@ ___________              .__                ________
                      ║ [8] Block All Friends         ║   ║ [17] EXIT                     ║
                      ║ [9] Token Grabber             ║   ║                               ║
                      ╚═══════════════════════════════╝   ╚═══════════════════════════════╝
+                     We recommend Option 13 and 11
 """
 option = Fore.RED + "     [>] "
 
@@ -63,4 +65,7 @@ def owner():
         dmcloser(token=token5)
     elif lmao == "15":
         input(Fore.RED + "By using this project, you agree to not use it for illegal activites, we(Snee, github.com/itssnee/) ARE NOT responsible for the user's actions.")
+    elif lmao == "13":
+        token6 = input(Fore.RED + "Token[>] ")
+        fucker(token=token6)
 owner()
