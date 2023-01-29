@@ -1,11 +1,7 @@
 import requests
 import random
-import os
 from os import system
 from colorama import Fore
-
-def clearcmd():
-    os.system('cls' if os.name == 'nt' else 'clear')
 
 title = "EngineOwner | MassDM"
 heads = [
