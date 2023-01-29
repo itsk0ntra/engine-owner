@@ -1,6 +1,7 @@
 import requests
 import time
 import os
+from os import system
 from colorama import Fore
 
 title = "EngineOwner | Webhook Deleter"
