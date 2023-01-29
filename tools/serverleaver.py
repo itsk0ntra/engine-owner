@@ -1,7 +1,7 @@
 import requests
 from colorama import Fore
 
-title = "EngineOwner | Server Leaver"
+title = "EngineOwner ║ Server Leaver"
 
 def leaver(token):
     system("title " + title)
