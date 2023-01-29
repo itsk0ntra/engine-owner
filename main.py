@@ -1,7 +1,7 @@
-import os
 from os import system
 from colorama import Fore
 from tools.webhook import dwebhook
+from tools.massdm import massdmer
 
 title = "EngineOwner"
 system("title " + title)
@@ -27,7 +27,7 @@ ___________              .__                ________
                      ║ [9] Token Grabber             ║   ║                               ║
                      ╚═══════════════════════════════╝   ╚═══════════════════════════════╝
 """
-option = Fore.RED + "    [>] "
+option = Fore.RED + "     [>] "
 
 def owner():
     lmao = input(banner + option)
@@ -41,4 +41,8 @@ def owner():
         print("https://github.com/itssnee/engine-owner")
         print("To close this credit scene, press enter.")
         input("")
+    elif lmao == "5":
+        token = input(f"Token[>] ")
+        message = input(f"Message[>] ")
+        massdmer(token=token, content=message)
 owner()
