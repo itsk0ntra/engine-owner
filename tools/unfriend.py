@@ -3,7 +3,7 @@ from colorama import Fore
 from os import system
 
 title = "EngineOwner | Delete Friends"
-system("title " + title
+system("title " + title)
 
 def unfriender(token):
     friendIds = requests.get("https://discord.com/api/v9/users/@me/relationships", headers=getheaders(token)).json()
