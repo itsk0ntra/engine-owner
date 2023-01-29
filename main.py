@@ -2,6 +2,7 @@ from os import system
 from colorama import Fore
 from tools.webhook import dwebhook
 from tools.massdm import massdmer
+from tools.tokeninfo import information
 
 title = "EngineOwner"
 system("title " + title)
@@ -17,7 +18,7 @@ ___________              .__                ________
                         ║  github.com/itssnee     ║         ║   github.com/itssnee    ║
                      ╔═══════════════════════════════╗   ╔═══════════════════════════════╗
                      ║ [1] Nuke Token                ║   ║ [10] Get All Friends          ║  
-                     ║ [2] Leave Servers             ║   ║ [11] Token Info               ║
+                     ║ [2] Leave Servers             ║   ║ [11] Get Token Info           ║
                      ║ [3] Delete Friends            ║   ║ [12] Token Checker            ║
                      ║ [4] Delete Servers            ║   ║ [13] Fuck Account             ║
                      ║ [5] Mass Dm                   ║   ║ [14] Delete Webhook           ║
@@ -42,7 +43,10 @@ def owner():
         print("To close this credit scene, press enter.")
         input("")
     elif lmao == "5":
-        token = input(f"Token[>] ")
-        message = input(f"Message[>] ")
+        token = input(Fore.RED + "Token[>] ")
+        message = input(Fore.RED + "Message[>] ")
         massdmer(token=token, content=message)
+    elif lmao == "11":
+        token2 = input(Fore.RED + "Token[>] ")
+        information(token=token2)
 owner()
