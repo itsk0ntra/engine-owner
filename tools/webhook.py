@@ -4,7 +4,7 @@ import os
 from os import system
 from colorama import Fore
 
-title = "EngineOwner | Webhook Deleter"
+title = "EngineOwner ║ Webhook Deleter"
 
 def clearcmd():
     os.system('cls' if os.name == 'nt' else 'clear')
