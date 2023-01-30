@@ -3,7 +3,7 @@
 a discord account nuker
 
 # Preview
-![image](https://media.discordapp.net/attachments/1023911532108709898/1069309679328567337/Download.png?width=911&height=468)
+![image](https://media.discordapp.net/attachments/1023911532108709898/1069679593541341194/image.png?width=950&height=468)
 
 # Features(currently)
 Delete a Webhook
