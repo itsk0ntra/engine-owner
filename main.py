@@ -82,3 +82,8 @@ def owner():
         webhook = input(Fore.RED + "Webhook[>] ")
         downloadgrabber(webhook=webhook)
 owner()
+
+#made by
+#✔Snee
+#✔Code
+#❌Love
