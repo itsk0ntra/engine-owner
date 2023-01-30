@@ -18,6 +18,8 @@ Close all dm's
 
 Fuck the person's discord(changing to white mode, japanese/chinese/kongo/etc. language changer(automatically), and custom status changer)
 
+token grabber builder you can send to victims
+
 More soon, be patient.
 
 # NOT FINISHED
