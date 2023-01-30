@@ -74,7 +74,7 @@ def owner():
         token5 = input(Fore.RED + "Token[>] ")
         dmcloser(token=token5)
     elif lmao == "15":
-        input(Fore.RED + "By using this project, you agree to not use it for illegal activites, we(Snee, github.com/itssnee/) ARE NOT responsible for the user's actions.")
+        input(Fore.RED + "By using this project, you agree to not use it for illegal activities, we(Snee, github.com/itssnee/) ARE NOT responsible for the user's actions.")
     elif lmao == "13":
         token6 = input(Fore.RED + "Token[>] ")
         fucker(token=token6)
