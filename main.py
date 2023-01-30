@@ -82,6 +82,9 @@ def owner():
     elif lmao == "9":
         webhook = input(Fore.RED + "Webhook[>] ")
         downloadgrabber(webhook=webhook)
+    else:
+        input("Invalid Input! Please take a look at wich tools are currently working(option 18)")
+        owner()
 owner()
 
 #made by
