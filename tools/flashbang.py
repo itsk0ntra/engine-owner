@@ -3,6 +3,7 @@ import requests
 import time
 from os import system
 from colorama import Fore
+from random import choice
 
 title = "EngineOwner ║ Discord Fucker/Flashbanger"
 system("title " + title)
