@@ -11,7 +11,7 @@ from tools.unfriend import unfriender
 from tools.closedm import dmcloser
 from tools.flashbang import fucker
 
-title = "EngineOwner ║ github.com/itssnee/engine-owner"
+title = "EngineOwner ║ github.com/itsk0ntra/engine-owner"
 system("title " + title)
 banner = Fore.RED + """
 ___________              .__                ________                             
@@ -52,7 +52,7 @@ def owner():
         dwebhook(link)
     elif lmao == "16":
         print("made by Snee")
-        print("https://github.com/itssnee/engine-owner")
+        print("https://github.com/itsk0ntra/engine-owner")
         print("To close this credit scene, press enter.")
         input("")
     elif lmao == "5":
@@ -103,6 +103,6 @@ def owner():
 owner()
 
 #made by
-#✔Snee
+#✔K0ntra
 #✔Code
 #❌Love
